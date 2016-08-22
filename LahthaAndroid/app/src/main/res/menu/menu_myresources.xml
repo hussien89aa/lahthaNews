@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hussienalrubaye.webview.myresources">
+
+
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/myresources"
+        android:title="@string/myresources"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/goback"
+        android:title="@string/goback"
+        android:icon="@drawable/left"
+        app:showAsAction="ifRoom" />
+</menu>

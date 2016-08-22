@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:textAlignment="center"
+    android:background="@color/whitebackground"
+          >
+
+    <LinearLayout
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:layout_width="100px"
+            android:layout_height="100px"
+
+            android:id="@+id/webView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/txtflollower"
+            android:layout_weight="0" />
+
+        <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="channel name"
+                    android:id="@+id/txtnamefollowers"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+            android:background="@color/white"
+                    android:layout_toLeftOf="@+id/webView2"
+                    android:layout_toRightOf="@+id/bufolowSubscrible"
+                    android:layout_toEndOf="@+id/bufolowSubscrible"
+            android:paddingBottom="4dp"
+            android:textSize="12dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="subscribers"
+                    android:id="@+id/txtflollower"
+                    android:layout_below="@+id/txtnamefollowers"
+                    android:gravity="center"
+                    android:textAlignment="gravity"
+                    android:layout_alignRight="@+id/txtnamefollowers"
+                    android:layout_alignEnd="@+id/txtnamefollowers"
+                    android:layout_alignBottom="@+id/bufolowSubscrible"
+                    android:layout_toRightOf="@+id/bufolowSubscrible"
+                    android:layout_toEndOf="@+id/bufolowSubscrible"
+            android:background="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+            android:textSize="7dp"
+            android:paddingBottom="5dp" />
+
+        <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:text="@string/Unfolow"
+                    android:id="@+id/bufolowSubscrible"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/barcolor"
+                    android:drawableRight="@drawable/add"
+                    android:paddingRight="5dp"
+            android:textSize="10dp"
+                    android:textColor="#fdfffa" />
+    </LinearLayout>
+</LinearLayout>
+
+

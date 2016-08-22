@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hussienalrubaye.webview.SubResources">
+    <item android:id="@+id/goback"
+        android:title="@string/resource"
+        android:icon="@drawable/left"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layoutDirection="rtl"
+    android:textAlignment="center"
+    android:layout_marginTop="7dp"
+    android:background="@drawable/menuback"
+    android:paddingRight="50dp"
+    android:paddingLeft="3dp">
+    <WebView
+        android:background="@drawable/menuback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/webView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/txtflollower"
+        android:layout_weight="0"
+        android:layout_marginLeft="5dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:background="@drawable/menuback"
+        android:layout_marginTop="1dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="channel name"
+            android:id="@+id/txtnamefollowers"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/menuback"
+            android:layout_toLeftOf="@+id/webView2"
+            android:layout_toRightOf="@+id/bufolowSubscrible"
+            android:layout_toEndOf="@+id/bufolowSubscrible"
+            android:paddingBottom="2dp"
+            android:textColor="#030107"
+            android:paddingTop="1dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="number of subcribles"
+            android:id="@+id/txtflollower"
+            android:layout_below="@+id/txtnamefollowers"
+            android:gravity="right"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_alignRight="@+id/txtnamefollowers"
+            android:layout_alignEnd="@+id/txtnamefollowers"
+            android:layout_alignBottom="@+id/bufolowSubscrible"
+            android:layout_toRightOf="@+id/bufolowSubscrible"
+            android:layout_toEndOf="@+id/bufolowSubscrible"
+            android:background="@drawable/menuback"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#030107"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:background="@drawable/menuback"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/backirrow"
+
+        android:layout_weight="0" />
+</LinearLayout>

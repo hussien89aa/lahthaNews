@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/myresources"
+        android:title="@string/resource"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/menu"
+        android:title="@string/resource"
+        android:icon="@drawable/menu"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/back"
+        android:title="@string/resource"
+        android:visible="false"
+        android:icon="@drawable/left"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitebackground"
+    tools:context="com.example.hussienalrubaye.webview.NewsDetails">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:background="@color/whitebackground"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:background="@color/whitebackground"
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/progressBar1"
+            android:layout_weight="0" />
+        <ScrollView
+            android:background="@color/whitebackground" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutapp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:layoutDirection="rtl"
+                android:textAlignment="center"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:background="@drawable/background"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:gravity="center"
+                    android:layoutDirection="ltr"
+                    android:textAlignment="center"
+
+                    android:background="@drawable/background"
+                    android:paddingTop="1dp"
+                    android:paddingBottom="1dp"
+
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp">
+                    <ImageView
+                        android:layout_gravity="top|left"
+
+                        android:layout_weight="0"
+                        android:layout_width="55px"
+                        android:layout_height="25px"
+                        android:id="@+id/IVAjal"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/ajalnews" />
+
+
+                    <TextView
+                        android:paddingEnd="1dp"
+                        android:layout_weight="0"
+                        android:background="@color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="2015-12-11"
+                        android:textSize="10dp"
+
+                        android:id="@+id/txt_news_date" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="channel name"
+                        android:id="@+id/txt_channel_name"
+                        android:layout_alignParentTop="true"
+                        android:gravity="right"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:layout_toLeftOf="@+id/webView"
+                        android:layout_toRightOf="@+id/bufolowSubscrible"
+                        android:layout_toEndOf="@+id/bufolowSubscrible"
+                        android:layout_weight="1"
+                        android:textColor="#0894f8"
+                        android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:singleLine="false"
+                        android:paddingRight="3dp" />
+
+
+
+                    <WebView
+                        android:layout_width="80px"
+                        android:layout_height="80px"
+
+                        android:id="@+id/wv_channel_mage"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignBottom="@+id/txtflollower"
+                        android:layout_weight="0"
+
+
+                        android:background="@color/lowDarkfont" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:gravity="right"
+                    android:textSize="18dp"
+                    android:textColor="#040101"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="دورة برمجة جافا هذه الدورة تشرح الجافا من الأساسيات الى مرحلة الأحتراف تشرح مختلف مواضيع من البداية الى قواعد البيانات ."
+                    android:id="@+id/txt_news_title"
+                    android:layout_alignParentTop="true"
+
+                    android:textAlignment="gravity"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:background="@color/white"
+                    android:layout_toLeftOf="@+id/webView"
+                    android:layout_toRightOf="@+id/bufolowSubscrible"
+                    android:layout_toEndOf="@+id/bufolowSubscrible"
+                    android:paddingBottom="2dp"
+                    android:singleLine="false"
+                    android:textStyle="bold" />
+
+                <WebView
+                    android:background="@drawable/background"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="550.50px"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/wv_news_image"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignBottom="@+id/txtflollower"
+                    android:layout_weight="0"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:fontFamily="sans-serif-medium"
+                    android:paddingRight="5dp"
+                    android:gravity="right"
+                    android:textSize="18dp"
+                    android:textColor="#040101"
+                    android:background="@color/white"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="دورة برمجة مشروع اندوريد بناء تطبيق من خلاله يستطيع الشخص عرض و بيع اغراضه المستعملة ضمن مدينته . أي يكون الشخص حساب في النظام ويستطيع من خلاله تكوين عروض لبيع غراضه المستعملة. باخذ صور لها ووضع سعر.والتواصل مع المشتري عبر النظام للحفاظ على خصوصوية المستخدم. يجب على لامشترك ان يكون قد اتم التالي دورة اندرويد, دورة سي شارب, دورة مبسطة عن SQL Server , web service in c# الموجودة في القناة"
+                    android:id="@+id/txtDetails"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:paddingLeft="10dp"
+                    android:paddingRight="3dp"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/background"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0">
+
+                    <Button
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ReadFromWebsite"
+                        android:background="@drawable/barcolor"
+                        android:drawableRight="@drawable/newsa"
+                        android:id="@+id/bugotowebsite" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">آخر الأخبار</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="search_title">search</string>
+    <string name="search_hint"> search for item</string>
+    <string name="news"> الرئيسية</string>
+    <string name="viedo"> فيديو</string>
+    <string name="ajala"> عاجل</string>
+    <string name="resource"> المصادر</string>
+    <string name="title_activity_resources_name">اسم المصادر-</string>
+    <string name="title_activity_sub_resources">القنوات</string>
+    <string name="numberfollowers"> عدد المتابعين </string>
+    <string name="Unfolow" >إلغاء متابعة</string>
+    <string name="folow" >متابعة</string>
+<string name="loading">جاري التحميل</string>
+    <string name="check">اختر</string>
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="title_activity_welcome">welcomeActivity</string>
+    <string name="title_activity_settings_app">الآعدادات</string>
+    <string name="alerts">تنبيهات</string>
+    <string name="callus">اتصل بنا</string>
+    <string name="separeteapp">نشر التطبيق</string>
+    <string name="rateapp">قيم التطبيق</string>
+    <string name="on">تشغيل</string>
+    <string name="off">اايقاف</string>
+    <string name="readit"> قرأتها </string>
+    <string name="readitmore"> الأكثر قرائة</string>
+    <string name="title_activity_myresources">myresources</string>
+    <string name="myresources">مصادري</string>
+    <string name="generldepartment">أقسام عامة</string>
+<string name="minutesp">لحظة</string>
+    <string name="Pop_ad_unit_id">Ads Code</string>
+    <string name="banner_ad_unit_id">Ads Code</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="no_search_result">لم يتم العثور على نتائج البحث</string>
+    <string name="nonetworkConnection">لا يوجد اتصال بالشبكة</string>
+    <string name="ReadFromWebsite">قراءة الخبر من الموقع الرسمي</string>
+    <string name="newnews">اخبار جديدة</string>
+    <string name="sharemessage">لحضة. برنامج اخباري رائع اود مشاركته معك نصبه الان</string>
+    <string name="errorairplane">الرجاء إزالة وضع الطائرة</string>
+    <string name="goback">عودة</string>
+    <string name="open">فتح</string>
+    <string name="rateq"> هل تود تقييم التطبيق</string>
+    <string name="PowerdBy">نشر بواسطة تطبيق لحظة</string>
+    <string name="FontSize">حجم خط االمقالة</string>
+</resources>

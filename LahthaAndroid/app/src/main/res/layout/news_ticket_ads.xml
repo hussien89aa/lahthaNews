@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    android:textAlignment="center"
+    android:layout_marginTop="7dp"
+    android:background="@color/whitebackground"
+
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+  >
+
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:background="@color/whitebackground"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
