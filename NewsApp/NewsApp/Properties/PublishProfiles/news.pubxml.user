@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ASUS S550C\Desktop\newsa[[</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASrC9ZhpzvUCPWShGjiLW8QAAAAACAAAAAAAQZgAAAAEAACAAAAD1eLl73ZEV2tA1nZD7mwR0j/vurv1vesgOUQKSycx6NAAAAAAOgAAAAAIAACAAAAD4g7vJUzwWGJDnmajISLbIXs3XcfCfOZLcqBVuolcumSAAAACodnoIcBInnxPlf57kb5i3udPBbH++Xh12jf6jM3s20kAAAADTPMng2ad7S77p8azYmqmZv0DEj27GAXFmqxzclmaG9B8vxmW058VuWDbezJebE10fHTWlGQcZkteno2n6HSTT</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddAdvestments.aspx">
+      <publishTime>10/11/2015 01:04:57</publishTime>
+    </File>
+    <File Include="AddResources.aspx">
+      <publishTime>09/28/2015 00:59:20</publishTime>
+    </File>
+    <File Include="AdminLogin.aspx">
+      <publishTime>10/22/2015 10:36:37</publishTime>
+    </File>
+    <File Include="bin/DBManager.dll">
+      <publishTime>08/07/2015 12:58:20</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>08/06/2012 21:31:42</publishTime>
+    </File>
+    <File Include="bin/NewsApp.dll">
+      <publishTime>11/28/2015 00:43:45</publishTime>
+    </File>
+    <File Include="callus.aspx">
+      <publishTime>11/24/2015 13:48:49</publishTime>
+    </File>
+    <File Include="ChannelNews.aspx">
+      <publishTime>10/26/2015 09:24:28</publishTime>
+    </File>
+    <File Include="DeleteData.aspx">
+      <publishTime>11/22/2015 08:43:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/01/2015 10:33:13</publishTime>
+    </File>
+    <File Include="Images/loading_spinner.gif">
+      <publishTime>10/10/2015 21:12:04</publishTime>
+    </File>
+    <File Include="Images/StylesImage/advestments.png">
+      <publishTime>08/31/2015 20:52:27</publishTime>
+    </File>
+    <File Include="Images/StylesImage/application_edit.png">
+      <publishTime>08/31/2015 20:23:56</publishTime>
+    </File>
+    <File Include="Images/StylesImage/business_user_edit.png">
+      <publishTime>08/31/2015 20:23:56</publishTime>
+    </File>
+    <File Include="Images/StylesImage/email.png">
+      <publishTime>09/25/2015 11:11:31</publishTime>
+    </File>
+    <File Include="Images/StylesImage/empty.png">
+      <publishTime>10/19/2015 23:10:11</publishTime>
+    </File>
+    <File Include="Images/StylesImage/eye.png">
+      <publishTime>09/26/2015 20:47:59</publishTime>
+    </File>
+    <File Include="Images/StylesImage/facebook.png">
+      <publishTime>09/25/2015 11:10:49</publishTime>
+    </File>
+    <File Include="Images/StylesImage/googleplus.png">
+      <publishTime>09/23/2015 19:44:42</publishTime>
+    </File>
+    <File Include="Images/StylesImage/inst.png">
+      <publishTime>09/25/2015 11:11:55</publishTime>
+    </File>
+    <File Include="Images/StylesImage/linkedin.png">
+      <publishTime>09/23/2015 20:07:54</publishTime>
+    </File>
+    <File Include="Images/StylesImage/share.png">
+      <publishTime>09/23/2015 19:35:01</publishTime>
+    </File>
+    <File Include="Images/StylesImage/share1.png">
+      <publishTime>10/16/2015 09:35:46</publishTime>
+    </File>
+    <File Include="Images/StylesImage/twitter.png">
+      <publishTime>09/25/2015 11:11:19</publishTime>
+    </File>
+    <File Include="Images/StylesImage/upirrow.png">
+      <publishTime>10/19/2015 22:59:13</publishTime>
+    </File>
+    <File Include="Images/StylesImage/whatsapp.png">
+      <publishTime>09/25/2015 11:11:44</publishTime>
+    </File>
+    <File Include="Images/StylesImage/wood-board-in-the-grass-field.jpg">
+      <publishTime>08/31/2015 21:20:58</publishTime>
+    </File>
+    <File Include="Jquery/AppStoreDownlaod/jquery.smartbanner.css">
+      <publishTime>11/22/2015 16:55:52</publishTime>
+    </File>
+    <File Include="Jquery/AppStoreDownlaod/jquery.smartbanner.js">
+      <publishTime>11/22/2015 16:55:52</publishTime>
+    </File>
+    <File Include="Jquery/jquery-1.11.3.min.js">
+      <publishTime>08/30/2015 21:49:28</publishTime>
+    </File>
+    <File Include="ManageAccounts.aspx">
+      <publishTime>10/11/2015 14:00:49</publishTime>
+    </File>
+    <File Include="ManageChannels.aspx">
+      <publishTime>10/14/2015 09:55:51</publishTime>
+    </File>
+    <File Include="MobileWebService1.asmx">
+      <publishTime>09/12/2015 21:54:50</publishTime>
+    </File>
+    <File Include="NewFeeds.aspx">
+      <publishTime>11/22/2015 09:55:54</publishTime>
+    </File>
+    <File Include="NewsDetails.aspx">
+      <publishTime>11/22/2015 17:20:37</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>08/31/2015 21:16:25</publishTime>
+    </File>
+    <File Include="Style/StyleSheet1.css">
+      <publishTime>10/26/2015 09:24:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/25/2015 11:31:58</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>10/15/2015 16:01:33</publishTime>
+    </File>
+    <File Include="WebService/MobileWebService1.asmx">
+      <publishTime>09/12/2015 21:54:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

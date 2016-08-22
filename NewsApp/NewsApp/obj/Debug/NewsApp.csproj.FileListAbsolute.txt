@@ -1,0 +1,7 @@
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\bin\NewsApp.dll.config
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\bin\NewsApp.dll
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\bin\NewsApp.pdb
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\bin\DBManager.dll
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\obj\Debug\NewsApp.csprojResolveAssemblyReference.cache
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\obj\Debug\NewsApp.dll
+C:\Users\ASUS S550C\documents\visual studio 2013\Projects\NewsApp\NewsApp\obj\Debug\NewsApp.pdb

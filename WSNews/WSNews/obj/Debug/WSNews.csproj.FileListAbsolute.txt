@@ -1,0 +1,16 @@
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\bin\Debug\WSNews.exe.config
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\bin\Debug\WSNews.exe.manifest
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\bin\Debug\WSNews.application
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\bin\Debug\WSNews.exe
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\bin\Debug\WSNews.pdb
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.csprojResolveAssemblyReference.cache
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.ProjectInstaller.resources
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.Service1.resources
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.csproj.GenerateResource.Cache
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.exe.manifest
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.application
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.exe
+C:\Users\ASUS S550C\Documents\Visual Studio 2013\Projects\WSNews\WSNews\obj\Debug\WSNews.pdb
+D:\E\new page\لحظة\v1.1\WSNews\WSNews\bin\Debug\WSNews.exe.config
+D:\E\new page\لحظة\v1.1\WSNews\WSNews\obj\Debug\WSNews.exe
+D:\E\new page\لحظة\v1.1\WSNews\WSNews\obj\Debug\WSNews.pdb

@@ -1,0 +1,213 @@
+﻿body {
+   
+
+}
+
+button{
+   
+  background:#fff;
+}
+
+DataList1_Label3_4  
+{  
+    color: #acacac;
+ 
+} 
+
+
+tr.spaceUnder > td
+{
+  padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: right;
+}
+.Header{
+      background-image: url("../Images/StylesImage/wood-board-in-the-grass-field.jpg");
+
+    height:120px;
+margin-top:-22px;
+padding-top:15px;
+}
+.Contain{
+    width:100%;
+    margin-right:0%;
+  background:#f9f9f9;
+    min-height:800px;
+      /*background-image: url("../Images/StylesImage/backoground1.jpg");*/
+
+}
+.BodyTeam{
+    width:100%;
+    background:#f9f9f9
+}
+a.nounderline:link  
+{  
+ text-decoration:none; 
+ 
+}  
+.HeaderPivHeader{
+    width:100%;
+    height:180px;
+     margin-bottom:0px;
+}
+.channalPic{
+    margin-right:0px;
+    margin-top:-140px;
+   margin-bottom:50px;
+  
+}
+.HeaderDivPivHeader{
+     height:150px;
+     max-height:150px;
+}
+.channalPicTitle{
+    text-align:center;
+   
+}
+.ItemNews{
+   width:100%;
+    margin-bottom:14px;
+  border: 1px solid #d3d3d3;
+    background:#fff
+
+}
+.ItemNewsData{
+ width:98%;
+            padding-right:2%;
+ padding-top:4px;
+ padding-bottom:4px;
+}
+  .HeaderPiv{
+            width:30px;
+            height:30px;
+            margin-right:3px;
+             margin-top:3px;
+             margin-left:6px;
+        }
+        .BodyPiv{
+            width:98%;
+           
+            padding-right:1%;
+            padding-bottom:4px;
+             padding-top:2px;
+        }
+        .ChannelData{
+ background:#d4d3d3;
+ text-align:center;
+ margin-top:1px;
+        }
+        .FousOnPanleOnly{
+background:#6D295A;
+}
+
+ .FousOnPanleOnlYFouc:hover{
+       background:#00BFD5;
+ }
+
+  .pnl2 {  
+        font-weight: bold;  
+        background-color: #fff;  
+        padding: 5px;  
+        cursor: pointer;  
+        border: solid 1px #c0c0c0;  
+    }  
+  .FousOnPanle{
+    background:#6D295A;
+     
+}
+.FousOnPanle:hover{
+    background:#00BFD5;
+   
+}
+ 
+.HyperlinkCssClassSmall img{
+    width:30px;
+    height:30px;
+   
+}
+
+ .newfeedbody{
+    background:#f9f9f9;
+     
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #f9f9f9;
+  opacity:0.8; // I ADDED THIS LINE 
+    }
+
+.ShareClass {
+    /*background: #f9f9f9;*/
+    height:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+     
+   
+
+ direction:ltr;
+
+
+}
+ .ShareClassTableCell {
+ 
+
+}
+
+
+
+ .ImageSharem {
+    width: 24px;
+    height:24px;
+}
+
+
+ .ImageShare {
+    width: 38px;
+    height: 38px;
+}
+.ShareClassTable {
+    padding-left:10px;
+    text-align:right;
+    padding-right:3px;
+}
+.ShareClassTableCell {
+    padding-left:3px;
+      padding-right:3px
+}
+.h3, h3{
+    color:#000;
+}
+
+.btn-successd{
+   background-color: #3b5998;
+ color:#fff;
+
+
+}
+
+.BodyPiv{
+  margin-top: 7px;
+
+
+}
+
+.DetailsConteinerstyle {
+     width:99%; 
+     background:#fff;
+     margin-right:0.5%;
+}
+
+.DateNewPading{
+ 
+            padding-right:8px;
+ padding-top:3px;
+ padding-bottom:3px;
+ padding-left:8px;
+}
+

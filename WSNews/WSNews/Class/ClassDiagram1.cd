@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WSNews.DBConnection">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Class\DBConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WSNews.Twitter">
+    <Position X="3" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAEAAAABAAAAgAAAAAAAAAAAACJAAAEAA=</HashCode>
+      <FileName>Class\Twitter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="WSNews.SubResourcesType">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\SubResourcesType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

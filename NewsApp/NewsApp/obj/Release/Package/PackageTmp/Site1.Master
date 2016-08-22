@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="NewsApp.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>دارة نظام الأخباري</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div dir="rtl" class="BodyTeam">
+        <div dir="rtl"  class="Header"  >
+            <h1> أدارة نظام الأخباري</h1>
+        </div>
+    <div dir="rtl"  class="Contain">
+       <div class="FousOnPanleOnly"  style="height:55px">
+           <asp:DataList ID="DataList1" runat="server"     RepeatDirection="Horizontal" RepeatColumns="15"  Width="100%" >
+                       <ItemTemplate>
+                           <div class="FousOnPanle"  style="height:55px" >
+                               <asp:HyperLink ID="HyperLink12"  runat="server"  NavigateUrl='<%# Eval("LinkPageView") %>' >
+                           
+                            <table     dir="rtl">
+                              
+                             <tr>
+                                  
+                                 <td style="width:30px; height:40px " >
+                                     &nbsp;
+                                    <asp:HyperLink ID="HyperLink1" CssClass="HyperlinkCssClassSmall"   runat="server" Text='<%# Eval("NameView") %>' 
+                                           ImageUrl='<%# Eval("ImageView") %>' 
+                                         NavigateUrl='<%# Eval("LinkPageView") %>'  ></asp:HyperLink>
+                             
+                             
+                          
+                                 </td>
+                                 <td  style="width:160px; height:40px;padding-top:20px;padding-left:6px; "  >
+                                     <asp:Label ID="Label1" runat="server" ForeColor="Black"  CssClass="ArabicFont" Text='<%# Eval("NameView") %>' Font-Bold="True"></asp:Label>
+                                 </td>
+                             </tr>
+                              
+                         </table>
+                           </asp:HyperLink>
+                           </div>
+                              
+                        </ItemTemplate>
+</asp:DataList>
+       </div>
+         <div class="container">
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        </div>
+             </div>
+    </form>
+</body>
+</html>
