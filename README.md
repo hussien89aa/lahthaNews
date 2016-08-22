@@ -10,7 +10,7 @@ This app helps you to know all the news about the Arabic region from you lovely 
 ![main](http://attach.alruabye.net/lahtha/Screenshot_2016-08-22-15-01-14.png)
 
 #Folder content
-###1-LahthaAndroid.zip: it is android App for the news system. in GlobalClass.java update the server url to your server url
+###1-LahthaAndroid: it is android App for the news system. in GlobalClass.java update the server url to your server url
 ###2-NewApp :it is web portal for the news system. TO make it work change the connection string in web.config to your own connection string and login  to the system with (username=admin, password=admin) 
 ###3- WSNews: it is windows services that bring news from different server. To make it work go to DBConnection.cs and change the connection string to your own connection string and login with. Also in twitter.cs add your twitter Secret and key value. make sure to put this service on VM running all time in cloud when your app be life
 
