@@ -1,5 +1,7 @@
 package com.example.hussienalrubaye.webview;
-
+/**
+ * Created by freedomseeker1981 on 8/17/16.
+ */
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -20,8 +22,8 @@ public class new_view_url extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_view_url);
-        Bundle b = getIntent().getExtras(); // load the notifications
-        String newurl = b.getString("newurl");
+        Bundle bundle = getIntent().getExtras(); // load the notifications
+        String newurl = bundle.getString("newurl");
         browser = (WebView) findViewById(R.id.webView);
         browser.setWebViewClient(new MyBrowser());
 
@@ -32,7 +34,7 @@ public class new_view_url extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar1);
         browser.setBackgroundColor(Color.TRANSPARENT);
         progressBar.setVisibility(View.VISIBLE);
-browser.loadUrl(newurl);
+        browser.loadUrl(newurl);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
