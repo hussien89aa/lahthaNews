@@ -3,7 +3,7 @@ package com.example.hussienalrubaye.webview;
 
 
 /**
- * Created by hussienalrubaye on 9/16/15.
+ * Created by freedomseeker1981 on 9/16/15.
  */
 public class ResourceItem {
     public  String Name;
