@@ -11,6 +11,9 @@ using System.Web.Script.Serialization;
 using System.Web.Script.Services;
 using System.Web.Services;
 
+/**
+ * Created by freedomseeker1981 on 8/17/16.
+ */
 namespace NewsApp.WebService
 {
     /// <summary>
