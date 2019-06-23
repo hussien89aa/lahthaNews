@@ -1,13 +1,14 @@
 # Lahtha News
 This app helps you to know all the news about the Arabic region from you lovely channels that you would like to follow.
 
+![main](http://attach.alruabye.net/lahtha/14068277_1076174009137642_8773000028961487706_n.png)
 
-![main](http://attach.alruabye.net/lahtha/Screenshot_2016-08-22-15-00-20.png)
+![main](http://attach.alruabye.net/lahtha/14067502_1074875045934205_6874447057109648300_n.png)
 
 
-![main](http://attach.alruabye.net/lahtha/Screenshot_2016-08-22-15-00-28.png)
+![main](http://attach.alruabye.net/lahtha/14039991_1074875049267538_4970913156657812419_n.png)
 
-![main](http://attach.alruabye.net/lahtha/Screenshot_2016-08-22-15-01-14.png)
+
 
 # Folder content
 ### 1-LahthaAndroid: it is android App for the news system. in GlobalClass.java update the server url to your server url
